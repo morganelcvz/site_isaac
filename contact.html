@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site Afpa</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/dd845416b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body-contact">
+	<header>
+		<nav>
+			<img src="/images/logo_afpa.png"/>
+			<a href="index.html">Accueil</a>
+			<a href="formation.html">Formation développeur web</a>
+			<a href="temoignages.html">Témoignages</a>
+			<a href="references.html">Nos références</a>
+			<a href="contact.html">Nous contacter</a>
+			<a href=""><span>S'identifier</span></a>
+		</nav>
+	</header>
+    <span class="backlink">
+        <p><a href="index.html">Retour Accueil</a> Nous Contacter</p>
+    </span>
+    
+    <div align="center">
+    <div class="contact-box">
+     <h1>Nous Contacter</h1>
+        <section>
+            <span>
+                <label for="nom">Son nom (*)</label>
+                <br/>
+                <input type="text" id="nom" title="nom">
+            </span>
+
+            <span>
+                <label for="telephone">Son numéro de téléphone</label>
+                <br/>
+                <input type="tel" id="telephone" title="telephone">
+            </span>
+
+            <span>
+                <label for="email">Son adresse mail(*)</label>
+                <br/>
+                <input type="text" id="email" title="email">
+            </span>
+        </section>
+        <section>
+            <span>
+            <label for="region">Sa région d'origine</label>
+            <br/>
+            <select name="region" id="region">
+              <option value="Choisir">Choisir</option>
+              <option value="Aquitaine">Aquitaine</option>
+              <option value="Auvergne">Auvergne</option>
+              <option value="Bretagne">Bretagne</option>
+              <option value="Haute Normandie">Haute Normandie</option>
+              <option value="Languedoc-Roussillon">Languedoc-Roussillon</option>
+              <option value="Limousin">Limousin</option>
+              <option value="Lorraine">Lorraine</option>
+              <option value="Nord-Pas-de-Calais">Nord-Pas-de-Calais</option>
+              <option value="Poitou-Charentes">Poitou-Charentes</option>
+              <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+            </select>
+            </span>
+
+            <span class="radio-group">
+            <label for="situation" style="color:grey">Sa situation</label>
+            <div class="radio-item">
+                <input name="situation" type="radio" id="demandeur"><label for="demandeur">Demandeur d'emploi</label>
+            </div>
+            <div class="radio-item">
+                <input name="situation" type="radio" id="salarié"><label for="salarié" class="rep">Salarié en transition professionnelle</label>
+            </div>
+            <div class="radio-item">
+            <input name="situation" type="radio" id="autre"><label for="autre" class="rep">Autre</label>
+            </div>
+            </span>
+
+            <span class="radio-group">
+            <label for="modalites" style="color:grey">Ses modalités d'apprentissage privilégiées</label>
+            <div class="radio-item">
+                <input name="modalites" type="radio" id="presentiel"><label for="presentiel">En centre de formation (présentiel)</label>
+            </div>
+            <div class="radio-item">
+                <input name="modalites" type="radio" id="distance"><label for="distance">100% à distance</label>
+            </div>
+            <div class="radio-item">
+                <input name="modalites" type="radio" id="alternance"><label for="alternance">En contrat d'alternance avec l'entreprise</label>
+            </div>
+            <div class="radio-item">
+                <input name="modalites" type="radio" id="none"><label for="none">sans préférences</label>
+            </div>
+            </span>
+        </section>
+
+        <div class="btn">
+            <button type="submit">envoyer</button>
+        </div>
+    </div>
+</div>
+
+    <footer>
+		<footerbar>
+			<span class="footer-socials">
+				<a href="https://www.facebook.com/Afpa.France/" target="_blank"><img src="/images/facebook_footer.png" title="lien facebook"></a>
+				<a href="https://www.instagram.com/afpa_formation/?hl=fr" target="_blank"><img src="/images/insta_footer.png" title="lien instagram"></a>
+				<a href="https://www.youtube.com/user/AfpaWebTv" target="_blank"><img src="/images/youtube_footer.png" title="lien youtube"></a>
+				<a href="https://www.linkedin.com/school/afpa/posts/?feedView=all" target="_blank"><img src="/images/linkedin_footer.png" title="lien linkedin"></a>
+			</span>
+			<section class="footer-links">
+				<p class="link1"><a href="">Fournisseurs</a> | <a href="">CGV</a> | <a href="">Règlement intérieur stagiaires</a> | <a href="">Nous contacter</a> | <a href="">Réclamations</a> | <a href="">Conformité</a></p>
+				<p class="link2"><a href="">Plan du site</a> | <a href="">Politique de correction des données</a> | <a href="">Politique</a> et <a href="">Personalisation des cookies</a> | <a href="">CGU</a> <a href="">Accessibilité</a> | <a href="">Mention légales</a></p>
+			</section>
+		</footerbar>
+		<span class="up">
+			<img src="/images/up.png">
+			<p>Haut de page</p>
+		</span>
+	</footer>
+</body>
+</html>
