@@ -12,7 +12,7 @@ body {
     padding: 0px;
     margin: 0px;
     background: #000;
-    background-image: url(/images/txt_bg.png);
+    background-image:url(../images/txt_bg.png);
     background-size:100%;
     height: auto;
 }
@@ -403,7 +403,7 @@ footerbar {
 
 .ref-section {
     background:#fff;
-    background-image:url(/images/ref_bg_full_color.png);
+    background-image:url(../images/ref_bg_full_color.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
