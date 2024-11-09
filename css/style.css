@@ -13,6 +13,7 @@ body {
     margin: 0px;
     background: #000;
     background-image: url(/images/txt_bg.png);
+    background-size:100%;
     height: auto;
 }
 
@@ -58,6 +59,14 @@ nav span {
     border-bottom-right-radius: 5rem;
     color: #fff;
     float: right;
+}
+
+nlink {
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;;
 }
 
 /******SUB NAV*******/
@@ -160,7 +169,6 @@ nav span {
 footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -175,6 +183,7 @@ footerbar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap:0rem 8.5rem;
 }
 
 .footer-socials {
@@ -190,7 +199,6 @@ footerbar {
 
 .footer-links {
     text-align: center;
-    margin-left: 15%;
 }
 
 .footer-links a {
@@ -277,6 +285,7 @@ footerbar {
     padding: 10px 30px;
     line-height: 100%;
     margin-top: 0px;
+    max-width:90%;
 }
 
 .admission-box img {
@@ -394,7 +403,7 @@ footerbar {
 
 .ref-section {
     background:#fff;
-    background-image:url(/images/ref_bg_full.png);
+    background-image:url(/images/ref_bg_full_color.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -430,14 +439,12 @@ footerbar {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:6rem;
+    gap:4rem;
 }
 
 .shape1, .shape2 {
-    background-color:#008C95;
     width:200px;
     height:200px;
-    transform: rotate(45deg);
     margin-top:4rem;
     font-family:montserrat;
     font-weight:bold;
@@ -446,51 +453,16 @@ footerbar {
     text-align:center;
 }
 
-.shape1 img {
-    transform: rotate(-45deg);
-    position:relative;
-    left:-1rem;
-    top:2rem;
-}
-
-.shape2 img {
-    transform: rotate(-45deg);
-    position:relative;
-    left:-1.3rem;
-    top:3.5rem;
-}
-
 .shape1 {
-    background:#FFD100;
     position:relative;
-    left:-1.3rem;
-    top:-2.3rem;
-}
-
-.shape2 {
-    background:#418FDE;
-    position:relative;
-    left:-0.9rem;
-    top:-2.3rem;
+    left:-2.3rem;
+    top:-2rem;
 }
 
 .ref-slot h3 {
     font-family:montserrat;
     font-weight:bold;
     font-size:1rem;
-    transform:rotate(-45deg);
-}
-
-.shape1 h3 {
-    position:relative;
-    top:-0.4rem;
-    left:1.3rem;
-}
-
-.shape2 h3 {
-    position:relative;
-    top:3rem;
-    left:1rem;
 }
 
 /*****************PAGE CONTACT*****************/
